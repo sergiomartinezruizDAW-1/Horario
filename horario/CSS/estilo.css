@@ -1,0 +1,150 @@
+       /* Las diferentes clases*/
+	   
+.Tit {
+        position: relative;
+	    background-color:#04a56f;
+    text-align: left;
+    color: #1A1A1A;
+}
+
+.Url {
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+}
+
+/*características de la tabla 1*/
+.tab1 {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    margin-bottom: 80px;
+
+}
+
+/*características de la tabla 2*/
+.tab2 {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    margin-bottom: 80px;
+
+}
+
+.HUrl  {
+    color: white;
+    position: absolute;
+    right: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+}
+
+.Hurl {
+    color: white;
+    position: absolute;
+    right: 140px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+
+}
+
+.PROG{
+    background-color:red;
+}
+
+
+.SINF{
+    background-color: #40E0D0;
+}
+
+
+.BBDD{
+    background-color: #99FF33;
+}
+
+
+.IPE{
+    background-color: #FFC0CB;
+}
+
+
+.Ing{
+    background-color: #E0B0FF;
+}
+
+
+.LLMM{
+    background-color: darkslategray;
+}
+
+
+.Pro{
+    background-color: #AFE1AF;
+}
+
+
+.recreo{
+    background-color: orange;
+}
+
+
+.DIG{
+    background-color: #66023C;
+}
+
+
+.SOS{
+    background-color: #536878;
+}
+
+
+.entorno{
+    background-color: #015b82;
+}
+
+
+.fila1{
+    background-color: #0BDA51;
+}
+
+
+.H{
+    background-color: #DEB887;
+}
+
+
+            /* Decoracion del fondo*/
+
+
+.footer{
+    background-color:#04a56f;
+    text-align: center;
+    color: #1A1A1A;
+
+}
+
+/*Características profesores tabla 2*/
+.Prof {
+    color: #FFFFFF;
+    background-color: rgb(16, 10, 43);
+
+}
+
+
+/*font-size: tamaño de la letra (fuente)*/
+
+fieldset{
+    border: 8px solid #04a56f;
+    padding: 1rem;
+    margin-top: 1rem;
+
+}
