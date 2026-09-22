@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="C:\Users\zombe\Desktop\horario\CSS\estilo.css">
+    <style>
+        body {
+            background-color: dimgrey;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="Tit">
+        <h1>Mi Instituto</h1>
+        <nav>
+            <a class="Url" href="Practica.html">inicio</a>
+        </nav>
+        <nav>
+            <a class="HUrl" href="WebTerminadaHorario.html">Horario</a>
+        </nav>
+        <nav>
+            <a class="Hurl" href="Formulario.html">Tutoría</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Formulario de contacto</h2>
+        <!--form y fieldset son para establecer el formulario y el recuadro-->
+        <form>
+            <fieldset>
+                <!--legend es para poner un título o nombre al formulario-->
+                <legend>Cita.</legend>
+                <!--la p es para separar las preguntas, label para establecer el id y el texto de la pregunta-->
+                <!--input es para establecer el tipo de respuesta (text = texto)-->
+                <p>
+                    <label for="nombre">*Nombre:</label>
+                    <input type="text" id="nombre" name="Nombre" required />
+                </p>
+                <p>
+                    <label for="apellidos">*Apellidos:</label>
+                    <input type="text" id="apellidos" name="Apellidos" required />
+                </p>
+                <p>
+                    <label for="password">*Contraseña:</label>
+                    <input type="text" id="password" name="Contraseña" required />
+                </p>
+                <p>
+                    <label for="e-mail">*Correo electrónico:</label>
+                    <input type="text" id="e-mail" name="Correo electrónico" required />
+                </p>
+                <p>
+                    <label for="number">*Número de contacto:</label>
+                    <input type="number" id="number" name="Número de contacto:" required />
+                </p>
+                <p>
+                    <label for="fecha">*Fecha de tutoría</label>
+                    <input type="date" id="fecha" name="Fecha" required />
+                </p>
+                <p>
+                    <label for="hora">*Hora de tutoría</label>
+                    <!--step="60" sirve para establecer el tiempo en minutos en caso de que venga con segundos-->
+                    <input step="60" type="time" id="hora" name="Hora de tutoría" required />
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Motivo/Necesidades de la tutoría</legend>
+                <p>
+                    <label for="representante">Representante/representado:</label>
+                    <select id="representante" name="representante">
+                        <option value="">Selecciona una opción</option>
+
+                        <option value="Padre">Padre</option>
+                        <option value="Madre">Madre</option>
+                        <option value="Tutor">Tutor</option>
+                        <option value="Alumno">Alumno</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="comentarios"> Comentarios: </label>
+                    <br>
+                    <textarea id="comentarios" name="comentarios" rows="5" cols="40"
+                        placeholder="Escribe aquí tus comentarios">
+                </textarea>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Confirmación</legend>
+                <input type="submit" value="Enviar respuestas">
+                <input type="reset" value="Cancelar cita">
+            </fieldset>
+        </form>
+    </main>
+    <footer class="footer">
+        <p>Formulario DAW-1 CIFP Virgen De Gracia</p>
+    </footer>
+</body>
